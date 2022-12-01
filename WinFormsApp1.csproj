@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LitJson" Version="0.18.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LitJSON">
+      <HintPath>..\..\..\Desktop\混沌EVE配置一键同步器\LitJSON.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
